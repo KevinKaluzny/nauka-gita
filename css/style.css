@@ -1,0 +1,32 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #fff;
+    color: #3d3d3d;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: 'Sawarabi Mincho', serif;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    margin: auto;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #e67e22;
+}
+
+h2 {
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #16a085;
+}
